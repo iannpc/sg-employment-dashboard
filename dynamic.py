@@ -49,7 +49,7 @@ df.columns = [label_col] + [normalise_period(c) for c in value_cols]
 # Page config
 st.set_page_config(page_title="Dashboard", layout="wide")
 
-st.title("Team 11's Dashboard")
+st.title("Team 11's Product Demo")
 st.markdown("---")
 
 st.subheader("📊 Employment Changes Overview") 
@@ -1313,4 +1313,5 @@ else:
         "This shows which age groups within the selected occupation grew or declined. "
         "Positive values (blue) indicate growth, while negative values (red) indicate decline. "
         "This helps identify aging workforce trends and recruitment patterns by age."
+
     )
